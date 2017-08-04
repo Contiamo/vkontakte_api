@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'faraday',                        '~> 0.11'
   s.add_runtime_dependency 'faraday_middleware',             '~> 0.11'
   unless defined?(JRUBY_VERSION)
-    s.add_runtime_dependency 'oj',                           '~> 2.7.2'
+    s.add_runtime_dependency 'oj',                           '~> 2.12.14'
   end
   s.add_runtime_dependency 'oauth2',                         '>= 0.8'
   s.add_runtime_dependency 'hashie',                         '>= 2.0'
